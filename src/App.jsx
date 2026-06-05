@@ -1,5 +1,6 @@
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
+import Hero from './sections/Hero';
 
 // Set up plugin
 gsap.registerPlugin(ScrollTrigger);
@@ -7,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 function App() {
   return (
     <main>
-      <div className='text-3xl text-indigo-600'>Welcome to GTA and GSAP</div>
+      <Hero />
     </main>
   );
 }
